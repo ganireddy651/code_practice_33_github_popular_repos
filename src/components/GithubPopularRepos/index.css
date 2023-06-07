@@ -1,1 +1,23 @@
-/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.app-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Lobster';
+  font-weight: 500;
+}
+.list-container {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
